@@ -76,7 +76,16 @@ WHERE Stream > 1000000000;
 ```
 
 
-2. List all albums along with their respective artists.
+2. *** List all albums along with their respective artists.***
+```sql
+SELECT 
+      DISTINCT Album,
+	  Artist
+FROM sportify;
+```
+
+
+
 3. Get the total number of comments for tracks where `licensed = TRUE`.
 4. Find all tracks that belong to the album type `single`.
 5. Count the total number of tracks by each artist.
